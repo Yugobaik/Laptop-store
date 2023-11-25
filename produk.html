@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produk.css">
+    <title>Toko Laptop milik YUGO</title>
+</head>
+<body>
+    <header>
+        <h1>YUGO STORE</h1>
+    </header>
+
+    <main>
+        <section class="produk">
+            <div class="item">
+                <img src="loq15.jpg" alt="Laptop 1">
+                <h2>Lenovo LOQ 15IRH8</h2>
+                <!-- <p>Deskripsi Laptop 1.</p> -->
+                <p class="harga">Harga: Rp 12.500.000</p>
+                <button onclick="tambahKeKeranjang(1)">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <img src="nitro 5.jpg" alt="Laptop 2">
+                <h2>Acer Nitro AN515-58</h2>
+                <!-- <p>Deskripsi Laptop 2.</p> -->
+                <p class="harga">Harga: Rp 12.200.000</p>
+                <button onclick="tambahKeKeranjang(2)">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <img src="ipg3.jpg" alt="Laptop 2">
+                <h2>IdeaPad Gaming 3</h2>
+                <!-- <p>Deskripsi Laptop 2.</p> -->
+                <p class="harga">Harga: Rp 10.200.000</p>
+                <button onclick="tambahKeKeranjang(3)">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <img src="hp victus 15.jpg" alt="Laptop 2">
+                <h2>HP Victus 15-fa0161TX</h2>
+                <!-- <p>Deskripsi Laptop 2.</p> -->
+                <p class="harga">Harga: 12.500.000</p>
+                <button onclick="tambahKeKeranjang(4)">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <img src="tuf 15.jpg" alt="Laptop 2">
+                <h2>ASUS TUF 15 FX506</h2>
+                <!-- <p>Deskripsi Laptop 2.</p> -->
+                <p class="harga">Harga: Rp 11.000.000</p>
+                <button onclick="tambahKeKeranjang(5)">Tambah ke Keranjang</button>
+            </div>
+            <div class="item">
+                <img src="acer.jpg" alt="Laptop 2">
+                <h2>Acer Predator Helios 16</h2>
+                <!-- <p>Deskripsi Laptop 2.</p> -->
+                <p class="harga">Harga: Rp 35.199.000</p>
+                <button onclick="tambahKeKeranjang(6)">Tambah ke Keranjang</button>
+            </div>
+        </section>
+        <section class="keranjang">
+            <h2>Keranjang Belanja</h2>
+            <ul id="keranjang-list">
+            </ul>
+            <p class="total-harga">Total Harga: 0</p>
+        </section>
+    </main>
+    <script src="produk.js"></script>
+</body>
+</html>

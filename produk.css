@@ -1,0 +1,44 @@
+body {
+    font-family: "Poppins",sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #9500ff;
+    color: white;
+    padding: 2px;
+    font-size: 30px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.harga {
+    font-weight: bold;
+}
+
+.keranjang {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
